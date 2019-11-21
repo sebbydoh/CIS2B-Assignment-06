@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Raleway:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans|Raleway:400,400i,700,700i|Space+Mono&display=swap');
 
 /*  GOOGLE FONTS
 font-family: 'Odibee Sans', cursive;
@@ -18,12 +18,11 @@ font-family: 'Raleway', sans-serif;
 */
 
 a:link, a:visited {
-	color: red;
+	color: #FF6666;
 	text-decoration: none;
 }
 
 a:focus, a:hover {
-	background-color: #ddddff;
 	border-radius: 5px;
 	text-decoration: underline;
 	transition-duration: 0.2s;
@@ -32,6 +31,8 @@ a:focus, a:hover {
 
 body {
 	font-size: 18px;
+	background-color: black;
+	color: #8ACE2D;
 }
 
 code {
@@ -44,6 +45,7 @@ h1, h2, h3 {
 	margin-bottom: 1rem;
 	text-align: center;
 	letter-spacing: 0.4rem;
+	color: #FF6666;
 }
 
 h1 {
@@ -63,20 +65,19 @@ header {
 }
 
 main {
-
+	margin-bottom: 30em;
 }
 
 p {
 	font-family: 'Raleway', sans-serif;
 	line-height: 1.45em;
-	width: 40em;
-	margin: 0 auto 1em;
-}
+	}
 
 #intro {
 
 }
 
-#how-does-it-work, #influence, #joke {
-
+#intro, #how-does-it-work, #influence, #joke {
+	width: 40em;
+	margin: 0 auto 1em;
 }
