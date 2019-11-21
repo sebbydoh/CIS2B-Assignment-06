@@ -19,6 +19,7 @@ font-family: 'Raleway', sans-serif;
 
 a:link, a:visited {
 	color: blue;
+	text-decoration: none;
 }
 
 a:focus, a:hover {
@@ -39,6 +40,8 @@ code {
 
 h1, h2, h3 {
 	font-family: 'Odibee Sans', cursive;
+	margin-top: 2em;
+	margin-bottom: 1em;
 }
 
 h1 {
@@ -63,8 +66,9 @@ main {
 
 p {
 	font-family: 'Raleway', sans-serif;
-	line-height: 1.5em;
-	width: 70em;
+	line-height: 1.45em;
+	width: 40em;
+	margin-bottom: 1em;
 }
 
 #intro {
