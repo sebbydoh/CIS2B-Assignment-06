@@ -30,7 +30,7 @@ a:focus, a:hover {
 }
 
 body {
-
+	font-size: 18px;
 }
 
 code {
@@ -38,7 +38,7 @@ code {
 }
 
 h1, h2, h3 {
-
+	font-family: 'Odibee Sans', cursive;
 }
 
 h1 {
@@ -62,7 +62,9 @@ main {
 }
 
 p {
-
+	font-family: 'Raleway', sans-serif;
+	line-height: 1.5em;
+	width: 70em;
 }
 
 #intro {
